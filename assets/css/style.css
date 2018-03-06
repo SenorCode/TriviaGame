@@ -1,8 +1,14 @@
+body{
+	background-color: #DCE3ED;
+}
 #question{
-	background-color: blue;
+	
 }
 
-button {
+.btn {
 	display: block;
 	margin-bottom: 15px;
+}
+.jumbotron{
+	background-color: #135BA5;
 }

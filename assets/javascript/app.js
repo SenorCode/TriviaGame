@@ -14,35 +14,39 @@ $(document).ready(function () {
 			correctAnswer: 0
 		},
 		{
-			Questions: "Who is the king of the jungle?",
+			question: "Who is king of the jungle?",
 			answers: ["A Monkey", "A Wolf", "A Lion"],
 			correctAnswer: 2
 		}];
 
-	var selection = Questions[Math.floor(Math.random()*3)];
-
+	var randomQuestion = Questions[Math.floor(Math.random()*3)];
+	var count = 0;
 	var time = 10;
+	var correctAnswer;
+	var incorrectAnswer;
+	var unansweredQuestions;
+	console.log(randomQuestion);
+$("#startButton").on('click', function(){
+
+	$(this).hide()
+		quizStart();
+});
+	
+
+	function quizStart() {
+
+	$("#question").html("<h2>" + randomQuestion.question + "</h2>").pop();
 
 	
-	console.log(Questions);	
-	console.log(selection);
 	
-
-
-
-
-
-
-
-
-	function questionDiv() {
-	$("<div/>", 
-	{
-	    'id': 'question',
-
-	 
-	}).appendTo(".jumbotron");
+		
 	}
+
+
+
+
+
+
 
 
 
