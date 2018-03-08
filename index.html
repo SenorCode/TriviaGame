@@ -10,11 +10,14 @@
 	<div class="container">
 		<h1 class="text-center">Trivia Game</h1>	
 		<div class="jumbotron">
-			<h2 class= "text-center">Ready to take a quiz?</h2>
+			<div id="title">
+			<h2 class= "text-center">Ready?</h2>
+			</div>
 			<button type="button" class="btn btn-default" id="startButton">Start Quiz</button>
 			<!-- question -->
-			<div id="question"></div>
-			<div id="answers"></div>
+			<div id="question" class="col-md-12"></div>
+			<div id="answers" class="col-md-6"></div>
+			<div class="col-md-6" id = "image"></div>
 			<!-- results -->
 			<div id="correctAnswers"></div>
 			<div id="incorrectAnswers"></div>

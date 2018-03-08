@@ -1,14 +1,19 @@
 body{
 	background-color: #DCE3ED;
 }
+
+#question>h2{
+	color: white;
+}
 #question{
-	
+	margin-bottom: 50px;
 }
 
 .btn {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .jumbotron{
 	background-color: #135BA5;
+	height: 500px;
 }
